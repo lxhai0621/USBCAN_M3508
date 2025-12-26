@@ -117,7 +117,7 @@ python m3508_example.py
 ## 项目文件
 
 ```
-M3508/
+USBCAN_M3508/
 ├── m3508_driver.py                    # 主驱动库
 ├── m3508_example.py                   # 使用示例
 ├── README.md                          # 本文件
