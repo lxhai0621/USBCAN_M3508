@@ -37,8 +37,7 @@ USB驱动类，管理USB转CAN模块和电机控制。
 #### 初始化
 
 ```python
-driver = USBCANDriver(port="COM3", baudrate=921600, timeout=0.1)
-driver.connect()
+driver = create_driver(port="COM3", baudrate=921600)
 ```
 
 #### 方法
@@ -57,12 +56,6 @@ driver.connect()
 ### M3508Motor 类
 
 电机类，包含PID控制器和反馈数据。
-
-#### 初始化
-
-```python
-motor = M3508Motor(motor_id, kp=1.0, ki=0.1, kd=0.0)
-```
 
 #### 方法
 
